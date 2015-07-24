@@ -1,0 +1,139 @@
+html {
+  background-image: url("../images/bg.jpg");
+  background-repeat: repeat;
+  background-color: #ADD8E6;
+}
+
+body {
+  width: 80%;
+  height: 100%;
+  display: block;
+  background-color: #67D8E6;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 4px 4px 10px #000000;
+}
+
+h1 { 
+  font-family: 'Play', sans-serif;
+  font-size: 250%;
+  text-shadow: 3px 3px 5px #ffffff;
+}
+
+h2 {
+  font-family: 'Play', sans-serif;
+}
+
+/* Navigation */
+#sidebar nav ul {
+  list-style-type: none;
+  padding: 0px;
+}
+
+#sidebar nav li {
+  margin-left:10px;
+  margin-right:10px;
+}
+
+#sidebar nav li a {
+  color: #FF3333;
+  text-decoration: none;
+}
+
+#sidebar nav li a:hover {
+  color: #3333FF;
+}
+
+#sidebar nav li a:visited {
+  color: #663366;
+}
+
+#sidebar nav li a:active {
+  color: #ffffff;
+}
+
+/*Sidebar*/
+#sidebar {
+  width: 20%;
+  height: 100%;
+  float: left;
+  display: inline-block;
+  background-image: url("../images/camera.jpg");
+  border: 1px solid #FDD8E9;
+  border-radius: 10px;
+}
+
+/* Main */
+#mainbody {
+  width: 75%;
+  height: 100%;
+  float: left;
+  display: inline-block;
+}
+
+#mainarea {
+  clear: both;
+  width: 100%;
+  display: inline-block;
+  background-color: #CDD8E9;
+  border: 1px solid #FDD8E9;
+  border-radius: 10px;
+}
+
+#mainp {
+	clear: both;
+  width: 75%;
+  border: 2px solid #ffffff;
+  background-color: #ADD8E6;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+/* Gallery */
+.gallery {
+  clear: both;
+  display: inline-block;
+  width: 100%;
+}
+
+.gallery img {
+  clear: both;
+  width: 200px;
+  height: 200px;
+  border: 2px solid #ff0000;
+  border-radius: 15px;
+}
+
+.gallery img:hover {
+  border-color: #0000ff
+}
+
+/* Asides */
+.list, .list h3, .list ol, .list ul {
+  width: 300px;
+  padding: 0px;
+}
+
+#list {
+  display: inline-block;
+  vertical-align: top;
+  text-align: center;
+  margin: 20px;
+  width: 200px;
+  list-style-type: lower-roman;
+  clear: both;
+}
+
+/* Footer */
+footer {
+  font-weight: bold;
+  line-height: 2em;
+  font-size: 10px;
+  font-style: italic;
+  clear: both;
+}
